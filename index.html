@@ -90,7 +90,12 @@
             <h1 style="font-size:15px">Koneksi Server Node.js</h1>
             <span class="badge disconnected" id="serverBadge">BELUM TERHUBUNG</span>
         </div>
-        <p class="helper-text" style="margin:8px 0">Panel ini di-host di GitHub Pages. Masukkan URL backend Node.js yang sudah di-deploy (Render / Firebase / server sendiri) supaya tombol di bawah bisa dipakai.</p>
+        <p class="helper-text" style="margin:8px 0">Panel ini di-host di GitHub Pages. Deploy dulu backend Node.js-nya (gratis), lalu tempel URL-nya di sini.</p>
+        <a href="https://render.com/deploy?repo=https://github.com/jakaarwi12/wa-blast-server"
+           target="_blank" rel="noopener"
+           style="display:block;text-align:center;background:#0ea5e9;color:#fff;padding:11px 14px;border-radius:8px;font-weight:700;text-decoration:none;margin-bottom:10px">
+            Deploy Backend ke Render (Gratis)
+        </a>
         <input type="text" id="backendUrlInput" placeholder="https://wa-blast-server.onrender.com" value="">
         <div class="btn-group">
             <button class="btn-full" style="background:#0284c7;color:#fff" onclick="simpanBackend()">Simpan & Hubungkan</button>
